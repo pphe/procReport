@@ -9,7 +9,7 @@ echo "Loading module."
 sudo insmod procReport.ko
 sleep 1 # give module a chance to generate proc data
 cat /proc/proc_report > output.txt
-vim output.txt
+#vim output.txt
 
 echo "Unloading module."
 sudo rmmod procReport.ko
