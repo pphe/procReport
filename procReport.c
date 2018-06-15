@@ -1,8 +1,4 @@
 /* 
- * Peter Phe
- * TCSS 422 - Operating Systems
- * Winter 2017
- * Assignment 2 - Process Reporter - Linux Kernel Module
  * Filename: procReport.c
  * Description: The kernel module generates a report describing the list of 
  * 				processes upon being loaded into kernel space. 
